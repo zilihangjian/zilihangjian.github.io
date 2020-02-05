@@ -1,13 +1,7 @@
 ---
-title: tags
-date: 2019-10-16 18:29:29
+title: 标签
+date: 2019-09-16 18:23:38
+type: "标签"
+layout: "标签"
 ---
 
-```
----
-title: tags
-date: 2018-09-30 18:23:38
-type: "tags"
-layout: "tags"
----
-```
