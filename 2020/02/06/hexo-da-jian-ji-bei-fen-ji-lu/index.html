@@ -4,9 +4,11 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="test, 记录">
-    <meta name="description" content="图片测试紫罗兰的永恒花园
-">
+    <meta name="keywords" content="hexo搭建及备份记录, 记录">
+    <meta name="description" content="博客搭建在Github创建仓库，本地安装node.js，git和hexo等步骤网上内容非常详尽，就不互相复制了(在此记录多个自用网址)。
+
+基本操作（较为详尽）
+matery主题设置参考（经验证，源代码下载后生成网站有错误，但步骤及设置可以">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>test | 誓约胜利之剑</title>
+    <title>hexo搭建及备份记录 | 誓约胜利之剑</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -286,7 +288,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '9714ebf45e7641cef0ed522e66ec75eb5884e75087d2809d961e9e6d4db8535b';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -299,13 +301,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        test
+                        hexo搭建及备份记录
                     </div>
                 </div>
             </div>
@@ -327,12 +329,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Typora/" target="_blank">
-                                <span class="chip bg-color">Typora</span>
-                            </a>
-                        
-                            <a href="/tags/Markdown/" target="_blank">
-                                <span class="chip bg-color">Markdown</span>
+                            <a href="/tags/hexo笔记记录/" target="_blank">
+                                <span class="chip bg-color">hexo笔记记录</span>
                             </a>
                         
                     </div>
@@ -355,21 +353,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2020-02-05
+                    2020-02-06
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>Word Count:&nbsp;&nbsp;
-                        12
+                        902
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>Read Times:&nbsp;&nbsp;
-                        1 Min
+                        3 Min
                     </div>
                     
                 
@@ -385,7 +383,45 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h1><h3 id="紫罗兰的永恒花园"><a href="#紫罗兰的永恒花园" class="headerlink" title="紫罗兰的永恒花园"></a>紫罗兰的永恒花园</h3><p><img src="/2020/02/05/test/ziluolan.jpg" alt="紫罗兰的永恒花园"></p>
+                <h1 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h1><p>在Github创建仓库，本地安装node.js，git和hexo等步骤网上内容非常详尽，就不互相复制了(在此记录多个自用网址)。</p>
+<ul>
+<li><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">基本操作</a>（较为详尽）</li>
+<li><a href="https://godweiyang.com/2018/04/13/hexo-blog/" target="_blank" rel="noopener">matery主题设置参考</a>（经验证，源代码下载后生成网站有错误，但步骤及设置可以参考）</li>
+<li><a href="https://zealot.top/Hexo-Github%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A23.html" target="_blank" rel="noopener">markdown语法相关</a><h1 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h1>hexo有很多主题可以设置，较流行的是Next主题，我选了一款比较符合我审美的主题matery，关于主题配置的相关设置，在<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">matery的github文档</a>里有较详细的说明，不在重复叙述。<h1 id="博客备份"><a href="#博客备份" class="headerlink" title="博客备份"></a>博客备份</h1>由于上传到Github的文件仅仅是生成后的网页文件，在更换电脑或者硬盘损坏（惨痛教训，一度耽误科研进度）导致源文件丢失时并不能通过此文件恢复原始博客文件夹。经过上网搜索，采用github分支备份的方法备份源文件夹。<h2 id="1-新建文件夹存放工作目录"><a href="#1-新建文件夹存放工作目录" class="headerlink" title="1.新建文件夹存放工作目录"></a>1.新建文件夹存放工作目录</h2><code>mkdir hexo</code><h2 id="2-新建Github分支hexo（起名自定，已有master分支）"><a href="#2-新建Github分支hexo（起名自定，已有master分支）" class="headerlink" title="2.新建Github分支hexo（起名自定，已有master分支）"></a>2.新建Github分支hexo（起名自定，已有master分支）</h2><h2 id="3-将Github远程仓库克隆至新建hexo文件夹"><a href="#3-将Github远程仓库克隆至新建hexo文件夹" class="headerlink" title="3.将Github远程仓库克隆至新建hexo文件夹"></a>3.将Github远程仓库克隆至新建hexo文件夹</h2><pre><code>git clone https://github.com/yourusername/yourusername.github.io hexo</code></pre></li>
+</ul>
+<p><strong>也可用ssh链接，在GitHub仓库页面上即可找到。</strong></p>
+<h2 id="4-删除除了版本管理的-git之外的所有文件和文件夹"><a href="#4-删除除了版本管理的-git之外的所有文件和文件夹" class="headerlink" title="4.删除除了版本管理的 .git之外的所有文件和文件夹"></a>4.删除除了版本管理的 .git之外的所有文件和文件夹</h2><pre><code>cd hexo
+rm -r *</code></pre><h2 id="5-把要备份的文件复制到hexo目录"><a href="#5-把要备份的文件复制到hexo目录" class="headerlink" title="5.把要备份的文件复制到hexo目录"></a>5.把要备份的文件复制到hexo目录</h2><pre><code>scaffolds/
+source/
+themes/
+.git/
+.gitignore
+_config.yml
+package.json</code></pre><p><strong>这几步是为了得到远程仓库分支后的 .git文件（个人理解）。</strong></p>
+<h2 id="6-提交备份"><a href="#6-提交备份" class="headerlink" title="6.提交备份"></a>6.提交备份</h2><pre><code>git add .        #保存所有文件到暂存区
+git commit -m &quot;创建hexo分支&quot;    #提交变更，此次变更名称为“”里的东西
+git push --set-upstream origin hexo
+#推送到GitHub，并用&#39;--set-upstream&#39;与origin创建关联
+#将hexo设置为默认分区
+#后续使用可省去&#39;--set-upstream&#39;</code></pre><p><a href="https://www.jianshu.com/p/aebeaf050969" target="_blank" rel="noopener">参考</a>（未验证详细步骤，但大体如此）</p>
+<h1 id="博客编辑"><a href="#博客编辑" class="headerlink" title="博客编辑"></a>博客编辑</h1><h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><h3 id="1-在站点配置文件-config-yml中找到如下代码段并更改（注意和主题配置文件区分）"><a href="#1-在站点配置文件-config-yml中找到如下代码段并更改（注意和主题配置文件区分）" class="headerlink" title="1.在站点配置文件 _config.yml中找到如下代码段并更改（注意和主题配置文件区分）"></a>1.在站点配置文件 _config.yml中找到如下代码段并更改（注意和主题配置文件区分）</h3><pre><code>post_asset_folder: true        #默认为false，改为true</code></pre><h3 id="2-在博客根目录下执行命令安装插件"><a href="#2-在博客根目录下执行命令安装插件" class="headerlink" title="2.在博客根目录下执行命令安装插件"></a>2.在博客根目录下执行命令安装插件</h3><pre><code>npm install hexo-asset-image --save</code></pre><h3 id="3-生成博文"><a href="#3-生成博文" class="headerlink" title="3.生成博文"></a>3.生成博文</h3><p>利用<code>hexo n &quot;博文名&quot;</code>生成markdown博文时，/source/_posts文件夹里面除了生成一个markdown文件以外还有一个同名文件夹，将要用的图片存放于此即可。博文中插入图片的语法类似于相对路径的表述。<br><code>![pic_alt替代文字](rin.jpg或博文名/图片名.jpg)</code></p>
+<hr>
+<p><strong>在实际操作过程中发现插入图片显示，原因是此插件有可能会有错误，在生成的html文件中看到图片<code>&lt;img&gt;</code>标签链接位置为 .io/文件夹下，正确路径应位于2020/2/6/xxx文件夹下，解决办法如下：<br>在/yourblogpath/node_modules/hexo-asset-images文件夹下，index.js为其主要代码，对index.js文件中代码进行一些修改。</strong></p>
+<pre><code>    var link = data.permalink;
+    var beginPos = getPosition(link, &#39;/&#39;, 3) + 1;
+    var appendLink = &#39;&#39;;
+    // In hexo 3.1.1, the permalink of &quot;about&quot; page is like &quot;.../about/index.html&quot;.
+    // if not with index.html endpos = link.lastIndexOf(&#39;.&#39;) + 1 support hexo-abbrlink
+    if(/.*\/index\.html$/.test(link)) {
+      // when permalink is end with index.html, for example 2019/02/20/xxtitle/index.html
+      // image in xxtitle/ will go to xxtitle/index/
+      appendLink = &#39;index/&#39;;
+      var endPos = link.lastIndexOf(&#39;/&#39;);                #将此处“/“改为”.“
+    }
+    else {
+      var endPos = link.lastIndexOf(&#39;.&#39;);                #将此处”.“改为”/“
+    }
+    link = link.substring(beginPos, endPos) + &#39;/&#39; + appendLink;</code></pre><p>具体原理参照<a href="https://sonky.top/other/hexo-fix-picture/" target="_blank" rel="noopener">此处博文</a><br>修改以后便可成功插入图片并显示，示例如下：<br><img src="/2020/02/06/hexo-da-jian-ji-bei-fen-ji-lu/saber.jpg" alt="fsn第三章"></p>
 
             </div>
             <hr/>
@@ -420,9 +456,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《test》
+                    《hexo搭建及备份记录》
                 </span> by
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/02/05/test/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/02/06/hexo-da-jian-ji-bei-fen-ji-lu/" property="cc:attributionName"
                rel="cc:attributionURL">
                 Excalibur Mogan
             </a> is licensed under a
@@ -462,9 +498,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;Current
+            </div>
             <div class="card">
                 <a href="/2020/02/06/hexo-da-jian-ji-bei-fen-ji-lu/">
                     <div class="card-image">
@@ -482,9 +519,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-02-06
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-02-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -497,6 +534,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -515,32 +553,48 @@
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/10/16/hello-world/">
+                <a href="/2020/02/05/test/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="test">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">test</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            进行博客常用功能测试及markdown语法练习
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-16
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-02-05
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-user fa-fw"></i>
-                            Excalibur Mogan
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Markdown/" class="post-category" target="_blank">
+                                    Markdown
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Typora/" target="_blank">
+                        <span class="chip bg-color">Typora</span>
+                    </a>
+                    
+                    <a href="/tags/Markdown/" target="_blank">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
                 </div>
                 
             </div>
