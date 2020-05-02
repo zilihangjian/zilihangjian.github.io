@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>某大厂硬件机试题记录</title>
+      <link href="/2020/05/02/mou-da-han-ying-jian-ji-shi-ti/"/>
+      <url>/2020/05/02/mou-da-han-ying-jian-ji-shi-ti/</url>
+      
+        <content type="html"><![CDATA[<h3 id="均为选择题"><a href="#均为选择题" class="headerlink" title="均为选择题"></a>均为选择题</h3><ol><li>CPU中断向量表保存的是</li><li>差动电路共模电压放大倍数越大越好，差模电压放大倍数越小越好。</li><li>方波电压转换为三角波电压应用那个电路</li><li>哪一中断属于不可屏蔽中断</li><li>P型半导体带正电，N型带负电</li><li>11000110的二进制补码是多少</li><li>DDR3和DDR4有leveling功能，互连设计不需关注时序约束规则</li><li>信号完整性中说的50ohm阻抗是特性阻抗</li><li>光纤色散的影响</li><li>待机时CPU的GPIO口配置</li><li>频率准确度的计算</li><li>时钟器件温度特性最好的是A.VCXO  B.OCXO   C.XO   D.TCXO</li><li>RS232串口常用波特率</li><li>下列哪个是组合逻辑电路  A.译码器   B.移位寄存器   C.计数器   D.触发器</li><li>RC串并联，f = f<del>0</del> = 1/2$\pi$RC时是哪个电路</li><li>稳压管正常稳压工作时两端外部电压特点    即判断二极管处在什么状态</li><li>8086CPU指示下一条指令存放地址寄存器是哪个</li><li>关于中断的叙述正确的是（记不住了）</li><li>十六进制0x5a与0xa5同或运算结果</li><li>32768Hz分频至1Hz需要多少次</li><li>三极管开关状态下的导通态和断开态分别指</li><li>1550nm波长处于什么波段   A.U   B.C  C.S   D.L</li><li>Boost型DC-DC电路减小输出电压的波纹有效果的是（多选）<br>A.提高开关频率   B.电容    C.电感</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 硬件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 硬件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo搭建及备份记录</title>
       <link href="/2020/02/06/hexo-da-jian-ji-bei-fen-ji-lu/"/>
       <url>/2020/02/06/hexo-da-jian-ji-bei-fen-ji-lu/</url>
