@@ -304,7 +304,7 @@ busuanziStatistics:
 # Add google analytics configuration
 # 添加 Google Analytics 配置
 googleAnalytics:
-  enable: false
+  enable: true
   id:
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
